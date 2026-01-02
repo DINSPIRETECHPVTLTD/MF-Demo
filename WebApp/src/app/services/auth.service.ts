@@ -21,7 +21,7 @@ export interface AuthResponse {
   providedIn: 'root'
 })
 export class AuthService {
-  private apiUrl = 'https://localhost:5000/api';
+  private apiUrl = 'https://localhost:7000/api';
   private currentUserSubject = new BehaviorSubject<AuthResponse | null>(this.getStoredUser());
   public currentUser$ = this.currentUserSubject.asObservable();
 
