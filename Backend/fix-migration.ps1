@@ -24,3 +24,4 @@ if ($migrationHistory -match "No migrations were found") {
     $migrationHistory
 }
 
+
